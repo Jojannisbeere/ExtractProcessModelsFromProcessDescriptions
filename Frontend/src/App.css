@@ -1,0 +1,196 @@
+.App {
+    text-align: center;
+}
+
+.heading {
+    color: #df9bc7;
+}
+
+.bigtext {
+    color: white;
+    font-size: 50px;
+}
+
+.buttonrow {
+    margin-left: 72%;
+    margin-top: 2%;
+}
+
+.filebutton {
+    background: transparent;
+    border-width: 0;
+}
+
+.filebutton:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.generatebutton {
+    background-color: #a63ab7;
+    border-width: 0;
+    border-radius: 10px;
+    width: 20%;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.3s background-color ease-in-out, 0.3s box-shadow ease-in-out;
+}
+
+.generatebutton:hover {
+    background-color: #b73aa9;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.field {
+    margin-bottom: 1%;
+    left: 20%;
+    width: 60%;
+    height: 76px;
+    border-radius: 10px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: 0.3s background-color ease-in-out, 0.3s box-shadow ease-in-out;
+}
+
+.field:hover {
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.field.focussed {
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.field.focussed textarea {
+    top: 10px;
+    padding: 24px 16px 8px 16px;
+}
+
+.field.focussed textarea + label {
+    top: 4px;
+    opacity: 1;
+    color: #672da8;
+}
+
+.field textarea {
+    resize: none;
+    top: 22px;
+    width: 98%;
+    position: relative;
+    padding: 0 16px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    background-color: transparent;
+    color: #282828;
+    outline: none;
+    box-shadow: 0 4px 20px 0 transparent;
+    transition: 0.3s background-color ease-in-out, 0.3s box-shadow ease-in-out, 0.1s padding ease-in-out;
+    -webkit-appearance: none;
+}
+
+.field textarea::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.field textarea::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.field textarea:-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.field textarea:-moz-placeholder {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.field textarea + label {
+    position: absolute;
+    top: 24px;
+    left: 16px;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #ffffff;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.1s all ease-in-out;
+}
+
+.descbox {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    left: 20%;
+    width: 60%;
+    height: 86px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.descbox {
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.descbox textarea {
+    resize: none;
+    top: 10px;
+    padding: 24px 16px 8px 16px;
+    width: 98%;
+    color: white;
+    height: 56px;
+    position: relative;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    background-color: transparent;
+}
+
+.descbox label {
+    top: 10px;
+    color: white;
+    position: absolute;
+    left: 16px;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    pointer-events: none;
+}
+
+.downloadmodelbutton {
+    position: absolute;
+    width: 5%;
+    margin-top: -46px;
+    margin-left: 93%;
+}
+
+
+.popup-content {
+    position: absolute;
+    display: block;
+    padding: 24px 16px 8px 16px;
+    color: white;
+    background-color: #2b1847;
+    border-radius: 10px;
+    width: 900px;
+    height: 750px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+    text-align: center;
+}
+
+.popup-arrow {
+    color: transparent;
+}
+

@@ -1,0 +1,16 @@
+.example_button {
+    background-color: purple;
+    padding: 10px;
+    border-radius: 50px;
+    border: 5px solid plum;
+    color: white;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.button_table {
+    border-spacing: 10px 25px;
+}
